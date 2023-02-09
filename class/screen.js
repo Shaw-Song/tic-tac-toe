@@ -77,6 +77,7 @@ class Screen {
         Screen.printCommands();
       } else {
         Screen.render();
+        // console.log(`${key.name} is valid.`);//debug..
         Screen.commands[key.name].execute();
       }
     });
